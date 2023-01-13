@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* ==================================
+全体に働きかける '※'
+================================== */
+* {
+  /*全称セレクター*/
+  box-sizing: border-box;
+}
+
+/* ==================================
+基本の設定
+================================== */
+body {
+  margin: 0;
+  font-family: "游ゴシック", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  color: #666;
+  line-height: 1.75;
+  background-image: url(../img/bg.png);
+}
+/* ==================================
+各ボックスの設定
+================================== */
+/* ラッパー・大枠*/
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ddd;
+}
+img {
+  max-width: 100%;
+}
+/* ヘッダーエリア*/
+.header {
+  width: 920px;
+  height: 300px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #ff73ab;
+}
+
+/*コンテンツエリア*/
+.contents-wrapper {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+/*メインエリア*/
+.main-contents {
+  width: 600px;
+}
+
+.article-content {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.article-content h2 {
+  padding: 10px;
+  font-size: 22px;
+  border-bottom: 1px dashed #000;
+  border-left: 8px solid #ff73ab;
+}
+.article-content p {
+  font-size: 16px;
+}
+
+/*サイドエリア*/
+.aside-contents {
+  width: 280px;
+  margin-top: 57px;
+}
+
+.aside-contents h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #ff73ab;
+  border-bottom: 1px solid #ccc;
+}
+
+.aside-contents p {
+  font-size: 16px;
+}
+
+.aside-contents ul {
+  margin-bottom: 40px;
+}
+
+/*フッターエリア*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 200px;
+  text-align: center;
+  background-color: #ff73ab;
+}
+.footer small {
+  color: #fff;
+}
+
+/* ==================================
+色、文字サイズ
+================================== */
